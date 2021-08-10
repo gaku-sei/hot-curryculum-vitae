@@ -1,0 +1,445 @@
+[basics]
+last_name = "Combriat"
+first_name = "Kévin"
+email = "japan.combriat.kevin@gmail.com"
+picture = "https://i.ytimg.com/vi/hWnTEvR1M5I/hqdefault.jpg"
+position = """
+Senior Full-Stack Tools Specialist
+"""
+about = """
+Technology agnostic, I focus on **building tools** and **applications** that matter for the **people** who need them.
+
+Specialized in **back-end** technologies and keen to bring the best **experience to the users**, whether it should be a full featured **web application**, a complex **desktop graphical interface**, or a **command line tool**.
+"""
+
+[basics.location]
+city = "Kyoto"
+country = "Japan"
+
+[[basics.profiles]]
+network = "GitHub"
+url = "https://github.com/gaku-sei"
+username = "gaku-sei"
+
+[[basics.profiles]]
+network = "GitLab"
+url = "https://gitlab.com/gaku-sei"
+username = "gaku-sei"
+
+[basics.key_skills]
+keywords = [
+  "**Rust**",
+  "**TypeScript**",
+  "**React**",
+  "**Svelte(kit)**",
+  "**Next.js**",
+  "**Electron** - **Tauri**",
+  "**AWS**",
+  "**PostgreSQL**",
+  "**Node**",
+]
+name = "Key skills and languages"
+
+[[works]]
+company = "Haven Studios - Sony"
+position = "Senior Tools Specialist"
+place = "Montréal, Canada"
+startDate = "2022-07-01"
+endDate = "2023-05-01"
+highlights = [
+  "Performance Analytics tool engineer - **Rust**",
+  "Game engine UI architect and developer - **TypeScript**",
+  "Server side developer - **Rust**",
+  "Tools and cli developer (code generator, NPM tooling, etc...) - **Rust**",
+]
+summary = """
+"""
+website = "https://havenstudios.com/"
+
+[[works]]
+company = "Legion Labs"
+position = "Senior Tools Specialist"
+place = "Montréal, Canada"
+startDate = "2021-11-14"
+endDate = "2022-07-01"
+highlights = [
+  "Game engine GUI application (hybrid desktop and web) architect and developer - **TypeScript**, **Tauri**",
+  "Server side developer - **Rust**",
+  "Tools and cli developer (code generator, NPM tooling, etc...) - **Rust**",
+]
+summary = """
+Legion Labs was a company building a brand new revolutionary game and content engine.
+
+My experience with Legion Labs was incredibly exciting and uplifting.
+
+I was in charge of the Editor UI architecture and development and could also work on another critical tool: Performance Analytics which I'm now focusing on at Haven Studios.
+Additionally to UI/Tools, I also worked on server side and tooling developments.
+
+Our stack was massively using Rust and TypeScript for the UI tools.
+"""
+website = "https://legionlabs.com/"
+
+[[works]]
+company = "Scoville"
+position = "Front-end developer - Web team lead"
+place = "Tokyo - Kyoto, Japan"
+startDate = "2018-06-01"
+endDate = "2021-09-01"
+highlights = [
+  "Lead front-end, scrum master on the Encourage project",
+  "Lead front-end on the Mikketa project",
+  "Lead full-stack on the ATS project",
+]
+summary = """
+Sc0ville is a company specialized in two fields:
+  - Human Resource, supporting students and helping them throughout their early career choices
+  - AI and automation
+
+I joined the company as a lead front-end developer and got the opportunity to take more responsibility, becoming
+web team lead, and full-stack developer on the project ATS (Applicant Tracking System).
+"""
+website = "https://sc0ville.com/"
+
+[[works]]
+company = "Scoville - ATS Project"
+position = "Lead full-stack developer"
+place = "Tokyo - Kyoto, Japan"
+startDate = "2021-02-01"
+endDate = "2021-09-01"
+highlights = [
+  "Decide with the team the overall management within the ATS project, define the Jira flow",
+  "Write User Stories, maintain the backlog and the board",
+  "Design with the team the stack for the front-end and the back-end",
+  "Review pull requests",
+  "Implement features in **TypeScript**",
+]
+summary = """
+The target of the ATS project is to help companies to centralize and track their job applicants with one single service.
+
+Part of a team of 6, I had to work very closely with the business team to understand, analyze, and put into words the requirements of each features.
+
+I also participated to the developments, bootstraping the front-end and the back-end codebases, and implement some features.
+"""
+
+[[works]]
+company = "Scoville - Mikketa Project"
+position = "Lead front-end developer"
+place = "Tokyo - Kyoto, Japan"
+startDate = "2020-02-01"
+endDate = "2021-02-01"
+highlights = [
+  "Used DDD (Domain Driven Design) and Agile from the very beginning of the project",
+  "Designed the frontend stack: **TypeScript**, **React**, ReScript, **GraphQL**",
+  "Participated to the meetings with the business team members to improve the feature set and discuss the requirements",
+  "Implemented the required features",
+  "Reviewed pull requests",
+  "Onboarded the new team members",
+]
+summary = """
+Mikketa is a new take on job hunting. Focusing primarily on new graduates, the application tends to be lighter and simpler than most of the competitors.
+It also offers a unique feature that fits the Japanese needs very well: the candidates can take 2 different assessments that will help both candidates and companies to find great fits.
+
+As the tech lead (and more specifically the front-end lead) of a team of 4, I was in charge to decide the stack, and implement the features with the other team members.
+
+I also participated extensively to the functional meetings (pre-grooming and grooming), to help defining the feature set and find simple and satisfying solutions to pain points raised by the clients.
+"""
+website = "https://mi-kketa.com/"
+
+[[works]]
+company = "Scoville - Encourage Project"
+position = "Lead front-end developer - Scrum master"
+place = "Tokyo - Kyoto, Japan"
+startDate = "2018-06-01"
+endDate = "2020-02-01"
+highlights = [
+  "Introduced the Agile toolset",
+  "Led the 4 web applications",
+  "Ease the communication between the team in charge of the APIs and the business team",
+  "Designed and developed the Gate, a \"Rest to GraphQL\" API built in **Rust**",
+  "Reviewed pull requests",
+]
+summary = """
+En-Courage is a platform that lets companies advertise about events they will organize and invite students.
+The platform works hand in hand with an other service called Geek Salon where students can be mentored, and trained, before attending such events.
+
+I was in charge to lead and drive the developments related to the En-Courage project in a team of 3 developers.
+
+It included a web application dedicated to our partners, an admin application, a CSM, and the main website http://en-courage.com for the students.
+
+To achieve these goals, I introduced the Agile toolset, to ease the scheduling, and improve the communication between the team members.
+
+**React**, Redux, and RxJS were used on the front-end, all written in **TypeScript**, while **Go** was used to build the APIs.
+
+In order to improve the communication between the multiple front-end applications and the APIs, we also implemented a simple **GraphQL** abstraction server put in the middle of the APIs and the clients.
+This service was built in **Rust** to improve type safety and ensure it wouldn't be a bottleneck.
+"""
+website = "https://en-courage.com"
+
+[[works]]
+company = "Soat"
+position = "Full-stack web developer - Lead - Trainer"
+place = "Paris, France"
+startDate = "2014-09-01"
+endDate = "2018-05-01"
+highlights = [
+  "Worked as a consultant",
+  "Wrote and provided training in React and Node",
+  "Participated to the web department development with the \"Experts Team\"",
+]
+summary = """
+Soat is a big IT consulting company.
+
+I was hired as a junior front-end developer but could become a lead full-stack developer, as well as a tech trainer at Soat.
+
+As a trainer I could write and provide 2 extensive trainings, about **React** and **Node** and provide them for different big companies.
+
+It was an amazing opportunity for me to share with more people and learn even more from different companies talking about their technical needs, and analyzing their requirements.
+
+Before leaving Soat I could also participate to the "Experts Team".
+The target was to meet regularly and decide the technical direction Soat should take. I was in charge to handle the Web department.
+"""
+website = "http://www.soat.fr/"
+
+[[works]]
+company = "BNP"
+position = "Lead developer - Architect"
+place = "Paris, France"
+startDate = "2018-01-01"
+endDate = "2018-05-01"
+highlights = [
+  "Built the architecture of the front-end part - **TypeScript**, **React**, Redux and RxJS",
+  "Developed new features",
+  "Worked on the CI/CD tool CircleCI",
+  "Wrote AWS templates",
+  "Communication and planning with the Product Owner and the Swiss Knife",
+  "Helped with automated tests (in Katalon)",
+  "Back-end in Java Spring Boot",
+]
+summary = """
+BNP is one of the biggest bank in Europe.
+
+BNP IFS (International Financial Services) invested in 6 new projects, and I was very lucky to participate to this new challenge within one of these team as a tech lead.
+
+Our project was an e-commerce like application allowing for everyone to invest in real estate.
+"""
+website = "https://group.bnpparibas/en/"
+
+[[works]]
+company = "Société Générale"
+position = "Senior full-stack web developer"
+place = "Paris, France"
+startDate = "2017-09-01"
+endDate = "2018-01-01"
+highlights = [
+  "Developed new features in **React** (**TypeScript**)",
+  "Participated to back-end development in **C#**",
+]
+summary = """
+Société Générale is one of the biggest bank in Europe.
+
+I had the opportunity to work on a pretty large application allowing for foreign currencies exchange.
+
+In a team of 10, I was in charge to develop new features in both React/TypeScript for the front-end, and C# for the back-end.
+
+The stack also included Redux and RxJS.
+CD/CI were achieved using Puppet and Deploy It.
+"""
+website = "https://www.societegenerale.com/en/home"
+
+[[works]]
+company = "Radio France"
+position = "Senior full-stack web developer"
+place = "Paris, France"
+startDate = "2016-09-01"
+endDate = "2017-09-01"
+highlights = [
+  "Led the RTE project, called Kami, a React/Draft.js based tool written in **TypeScript**",
+  "Worked on a full-featured Node server written with Express",
+  "Introduced TypeScript to the team, used TypeScript to refactor some projects",
+  "Used SVG in PureScript and Pux to build a small graph tool",
+]
+summary = """
+Radio France is the main French radio company.
+
+I worked in a team of 5, developing and maintaining multiple applications, mainly front-end related.
+
+We had to develop and maintain a dozen of projects written mainly in React/Redux.
+"""
+website = "http://www.radiofrance.fr/"
+
+[[works]]
+company = "TF1"
+position = "Lead full-stack web developer - Lead font-end developer"
+place = "Paris, France"
+startDate = "2014-09-01"
+endDate = "2016-09-01"
+highlights = [
+  "Led a team of 5 on a first website project in AngularJS",
+  "Built a powerful tag system to link every kind of resources used by the front-end website",
+  "Developed my first full-featured RTE using Scribe",
+  "Translated from ES5 to ES6 (ES2015) the codebase",
+  "Worked on the core API built with Hapi on **Node**",
+  "Could write and give technical presentation to the different teams (including presentations about ES6 new features and Node)",
+  "Developed an isomorphic application using React and Redux on the front-end and Express on the back-end",
+  "Build an other RTE using React and Draft.js",
+]
+summary = """
+TF1 is one of the biggest European TV channels.
+
+It was my first mission as a consultant for Soat.
+
+Within the framework of a full application refactoring, I was hired as a developer in a team of 5 on an AngularJS application for around 9 months.
+
+After that I had the opportunity to work on the "core application", a Node API built on top of HAPI, for 3 months.
+
+The last 8 months I spent at TF1 were dedicated to deciding the stack and the architecture, and developing a new application in a team of 4.
+
+The chosen stack included **React** and Redux.
+"""
+website = "http://www.tf1.fr/"
+
+[[works]]
+company = "Tibanne"
+position = "Front-end developer"
+place = "Tokyo, Japan"
+startDate = "2013-11-01"
+endDate = "2014-08-15"
+highlights = [
+  "HTML/CSS integration",
+  "Created new pages and dynamic forms",
+  "Developed and tested newsletter emails",
+  "JavaScript development",
+]
+summary = """
+Tibanne had several activities including website and VPS hosting via the website forever.net.
+
+My mission was to build alone the front-end for this website.
+"""
+
+[[works]]
+company = "-"
+position = "Full-stack web developer"
+place = "Paris, France"
+startDate = "2012-09-01"
+endDate = "2013-09-01"
+highlights = [
+  "Wrote \"Functional JavaScript\" (https://github.com/gaku-sei/functional-javascript) a functional programming library in JavaScript for educational purposes",
+  "Mango project: an ORM for MongoDB in Clojure",
+  "Developed a GMail POP3 client in **Rust**",
+  "Built several small applications in **Node**",
+]
+summary = """
+I decided to take one year as an autodidact to learn new languages and to improve my knowledge in both front-end and back-end development.
+
+During this period I could deep-dive into server development using Ruby, Python, and Node.
+It was also a good opportunity for me to really understand JavaScript and how it works regardless of the framework.
+
+I could also learn new paradigms with languages such as Haskell and Scala, which greatly
+helped me, until now, to find better ways to write better applications.
+"""
+
+[[works]]
+company = "QuelleEnergie"
+position = "Full-stack web developer"
+place = "Paris, France"
+startDate = "2012-03-01"
+endDate = "2012-09-01"
+highlights = [
+  "Business needs analysis",
+  "Writing technical specifications",
+  "Server development using **Ruby on Rails**",
+  "Front-end development with jQuery",
+  "MySQL migrations",
+  "Unit tests with RSpec",
+]
+summary = """
+QuelleEnergie is an energy saving advice company.
+
+The website and its tools are built in Ruby on a Rails and jQuery.
+"""
+website = "https://www.quelleenergie.fr/"
+
+[[educations]]
+institution = "University - Epitech Paris"
+area = "Software Development"
+place = "Paris, France"
+startDate = "2010-04-01"
+endDate = "2012-04-01"
+website = "https://www.epitech.eu/"
+
+[[skills]]
+keywords = ["Agile", "Scrum", "Gitflow"]
+name = "Methodology"
+
+[[skills]]
+keywords = [
+  "**React**",
+  "**Svelte(kit)**",
+  "**Next.js** for server side rendered applications",
+  "Vue",
+  "Tailwind",
+  "Redux",
+  "Recoil/Jotai",
+  "RxJS",
+  "Webpack",
+  "Vite",
+  "AngularJS",
+  "Angular",
+]
+name = "Front-End Web Development"
+
+[[skills]]
+keywords = [
+  "**Egui** - Eframe (Rust immediate mode graphical library)",
+  "**Electron**",
+  "Dioxus (Rust)",
+]
+name = "Front-End Desktop Development"
+
+[[skills]]
+keywords = [
+  "**Rust** services and APIs (Actix, Axum, Juniper, Tokio, CLI toolings)",
+  "**Node** (Express, Fastify, Prisma, Nestjs, Hapi, Koa)",
+  "**AWS** (Cognito, Route 53, Ec2, s3, lambda, etc...)",
+  "Terraform",
+  "GraphQl (Nexus, TypeGraphql, Absinthe)",
+  "Rest services",
+  "MySQL",
+  "SQLite",
+  "PostgreSQL",
+]
+name = "Back-End Development"
+
+[[skills]]
+keywords = ["React-Native", "Progressive Web App"]
+name = "Mobile Development"
+
+[[skills]]
+keywords = [
+  "**Rust**",
+  "**TypeScript**",
+  "**Python**",
+  "ReScript",
+  "JavaScript",
+  "Elm",
+  "OCaml",
+  "Ruby",
+  "C#",
+]
+name = "Languages used at work"
+
+[[skills]]
+keywords = ["**Go**", "Elixir", "PureScript", "Haskell", "Scala"]
+name = "Languages used at home"
+
+[[languages]]
+fluency = "Native"
+language = "French"
+
+[[languages]]
+fluency = "Professional working proficiency"
+language = "English"
+
+[[languages]]
+fluency = "Elementary proficiency"
+language = "Japanese"

@@ -1,0 +1,9 @@
+[source]
+path = "./cv.en.toml"
+
+[template]
+source = { path = "../hot-curry-themes/simple/index.html.jinja" }
+
+[output]
+path = "./index"
+types = ["html"]

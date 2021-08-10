@@ -1,0 +1,1104 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#9c3c2a",
+          },
+        },
+      },
+    };
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .clean-paragraphs {
+        @apply space-y-1;
+      }
+
+      .clean-paragraphs>p {
+        @apply indent-4;
+      }
+
+    }
+  </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap');
+
+    body {
+      font-family: "Vollkorn", "Lato", sans-serif;
+    }
+
+    @media print {
+      body {
+        font-size: 16px;
+      }
+
+      .summary {
+        break-inside: avoid-page;
+      }
+
+      .picture {
+        display: none;
+      }
+
+      a.underline {
+        text-decoration: none !important;
+      }
+
+    }
+  </style>
+  <title>Combriat Kévin's CV</title>
+</head>
+
+<body class="text-gray-800">
+  <main class="flex flex-col items-center w-full">
+    <div class="max-w-[900px]">
+      <div class="flex flex-col space-y-8 px-4 sm:px-8 pt-8">
+        <div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 justify-between">
+          <section class="space-y-1">
+            <div class="flex flex-row text-3xl space-x-1 font-bold">
+              <div class="uppercase">Combriat</div>
+              <div>Kévin</div>
+            </div>
+            
+            <div class="whitespace-pre-line">Senior Full-Stack Tools Specialist
+</div>
+            
+            <div class="w-[150px] pt-2 border-b border-primary"></div>
+          </section>
+          <section class="space-y-0.5 font-bold text-sm">
+            <div class="flex items-center space-x-1">
+              <span class="iconify text-primary" data-icon="ic:baseline-alternate-email">
+              </span>
+              <div>
+                <a class="print:hidden text-blue-800 underline" href="mailto:japan.combriat.kevin@gmail.com">
+                  japan.combriat.kevin@gmail.com
+                </a>
+                <a class="hidden print:block text-blue-800" href="mailto:japan.combriat.kevin@gmail.com">
+                  japan.combriat.kevin@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="flex items-center space-x-1">
+              <span class="iconify text-primary" data-icon="ic:baseline-home">
+              </span>
+              <div>
+                Kyoto, Japan
+              </div>
+            </div>
+          </section>
+        </div>
+        
+        <section class="picture">
+          <div class="flex justify-center">
+            <div class="w-44 h-44 border border-gray-800 rounded-full flex border items-center justify-center">
+              <div class="bg-cover bg-center h-40 w-40 rounded-full border-2 border-gray-800 shadow-2xl"
+                style="background-image: url(https://i.ytimg.com/vi/hWnTEvR1M5I/hqdefault.jpg);background-size: 170% 135%; background-position-x: 60%;" />
+            </div>
+          </div>
+        </section>
+        
+        
+        <section class="pt-4 px-4 sm:px-8 space-y-8">
+          <div class="space-y-3">
+            <div class="text-xl font-bold uppercase">About</div>
+            <hr class="h-0.5" />
+            <div class="whitespace-pre-line leading-8 text-lg clean-paragraphs">
+              <p>Technology agnostic, I focus on <strong>building tools</strong> and <strong>applications</strong> that matter for the <strong>people</strong> who need them.</p>
+<p>Specialized in <strong>back-end</strong> technologies and keen to bring the best <strong>experience to the users</strong>, whether it should be a full featured <strong>web application</strong>, a complex <strong>desktop graphical interface</strong>, or a <strong>command line tool</strong>.</p>
+
+            </div>
+          </div>
+        </section>
+        
+        
+        <section>
+          <div class="space-y-3">
+            <div class="text-xl font-bold uppercase">Key skills and languages</div>
+            <hr class="h-0.5" />
+            <div class="pl-8 pr-4">
+              <ul class="list-disc">
+                
+                <li><p><strong>Rust</strong></p>
+</li>
+                
+                <li><p><strong>TypeScript</strong></p>
+</li>
+                
+                <li><p><strong>React</strong></p>
+</li>
+                
+                <li><p><strong>Svelte(kit)</strong></p>
+</li>
+                
+                <li><p><strong>Next.js</strong></p>
+</li>
+                
+                <li><p><strong>Electron</strong> - <strong>Tauri</strong></p>
+</li>
+                
+                <li><p><strong>AWS</strong></p>
+</li>
+                
+                <li><p><strong>PostgreSQL</strong></p>
+</li>
+                
+                <li><p><strong>Node</strong></p>
+</li>
+                
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+      </div>
+      <section class="flex flex-col pt-4 px-4 sm:px-8">
+        <section class="pt-4 space-y-8">
+          <div class="space-y-3">
+            <div class="text-xl font-bold uppercase">
+              Experiences
+            </div>
+            <hr class="h-0.5" />
+            <div class="space-y-8">
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Senior Tools Specialist
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://havenstudios.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Haven Studios - Sony
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://havenstudios.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Haven Studios - Sony
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Montréal, Canada</span>, 2022-07-01 to 2023-05-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Performance Analytics tool engineer - <strong>Rust</strong></p>
+</li>
+                    
+                    <li><p>Game engine UI architect and developer - <strong>TypeScript</strong></p>
+</li>
+                    
+                    <li><p>Server side developer - <strong>Rust</strong></p>
+</li>
+                    
+                    <li><p>Tools and cli developer (code generator, NPM tooling, etc…) - <strong>Rust</strong></p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"></div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Senior Tools Specialist
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://legionlabs.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Legion Labs
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://legionlabs.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Legion Labs
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Montréal, Canada</span>, 2021-11-14 to 2022-07-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Game engine GUI application (hybrid desktop and web) architect and developer - <strong>TypeScript</strong>, <strong>Tauri</strong></p>
+</li>
+                    
+                    <li><p>Server side developer - <strong>Rust</strong></p>
+</li>
+                    
+                    <li><p>Tools and cli developer (code generator, NPM tooling, etc…) - <strong>Rust</strong></p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>Legion Labs was a company building a brand new revolutionary game and content engine.</p>
+<p>My experience with Legion Labs was incredibly exciting and uplifting.</p>
+<p>I was in charge of the Editor UI architecture and development and could also work on another critical tool: Performance Analytics which I’m now focusing on at Haven Studios.
+Additionally to UI/Tools, I also worked on server side and tooling developments.</p>
+<p>Our stack was massively using Rust and TypeScript for the UI tools.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Front-end developer - Web team lead
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://sc0ville.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Scoville
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://sc0ville.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Scoville
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Tokyo - Kyoto, Japan</span>, 2018-06-01 to 2021-09-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Lead front-end, scrum master on the Encourage project</p>
+</li>
+                    
+                    <li><p>Lead front-end on the Mikketa project</p>
+</li>
+                    
+                    <li><p>Lead full-stack on the ATS project</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>Sc0ville is a company specialized in two fields:</p>
+<ul>
+<li>Human Resource, supporting students and helping them throughout their early career choices</li>
+<li>AI and automation</li>
+</ul>
+<p>I joined the company as a lead front-end developer and got the opportunity to take more responsibility, becoming
+web team lead, and full-stack developer on the project ATS (Applicant Tracking System).</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Lead full-stack developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <span class="text-blue-800">Scoville - ATS Project</span></span>
+                    
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Tokyo - Kyoto, Japan</span>, 2021-02-01 to 2021-09-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Decide with the team the overall management within the ATS project, define the Jira flow</p>
+</li>
+                    
+                    <li><p>Write User Stories, maintain the backlog and the board</p>
+</li>
+                    
+                    <li><p>Design with the team the stack for the front-end and the back-end</p>
+</li>
+                    
+                    <li><p>Review pull requests</p>
+</li>
+                    
+                    <li><p>Implement features in <strong>TypeScript</strong></p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>The target of the ATS project is to help companies to centralize and track their job applicants with one single service.</p>
+<p>Part of a team of 6, I had to work very closely with the business team to understand, analyze, and put into words the requirements of each features.</p>
+<p>I also participated to the developments, bootstraping the front-end and the back-end codebases, and implement some features.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Lead front-end developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://mi-kketa.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Scoville - Mikketa Project
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://mi-kketa.com/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Scoville - Mikketa Project
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Tokyo - Kyoto, Japan</span>, 2020-02-01 to 2021-02-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Used DDD (Domain Driven Design) and Agile from the very beginning of the project</p>
+</li>
+                    
+                    <li><p>Designed the frontend stack: <strong>TypeScript</strong>, <strong>React</strong>, ReScript, <strong>GraphQL</strong></p>
+</li>
+                    
+                    <li><p>Participated to the meetings with the business team members to improve the feature set and discuss the requirements</p>
+</li>
+                    
+                    <li><p>Implemented the required features</p>
+</li>
+                    
+                    <li><p>Reviewed pull requests</p>
+</li>
+                    
+                    <li><p>Onboarded the new team members</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>Mikketa is a new take on job hunting. Focusing primarily on new graduates, the application tends to be lighter and simpler than most of the competitors.
+It also offers a unique feature that fits the Japanese needs very well: the candidates can take 2 different assessments that will help both candidates and companies to find great fits.</p>
+<p>As the tech lead (and more specifically the front-end lead) of a team of 4, I was in charge to decide the stack, and implement the features with the other team members.</p>
+<p>I also participated extensively to the functional meetings (pre-grooming and grooming), to help defining the feature set and find simple and satisfying solutions to pain points raised by the clients.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Lead front-end developer - Scrum master
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://en-courage.com"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Scoville - Encourage Project
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://en-courage.com"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Scoville - Encourage Project
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Tokyo - Kyoto, Japan</span>, 2018-06-01 to 2020-02-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Introduced the Agile toolset</p>
+</li>
+                    
+                    <li><p>Led the 4 web applications</p>
+</li>
+                    
+                    <li><p>Ease the communication between the team in charge of the APIs and the business team</p>
+</li>
+                    
+                    <li><p>Designed and developed the Gate, a “Rest to GraphQL” API built in <strong>Rust</strong></p>
+</li>
+                    
+                    <li><p>Reviewed pull requests</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>En-Courage is a platform that lets companies advertise about events they will organize and invite students.
+The platform works hand in hand with an other service called Geek Salon where students can be mentored, and trained, before attending such events.</p>
+<p>I was in charge to lead and drive the developments related to the En-Courage project in a team of 3 developers.</p>
+<p>It included a web application dedicated to our partners, an admin application, a CSM, and the main website http://en-courage.com for the students.</p>
+<p>To achieve these goals, I introduced the Agile toolset, to ease the scheduling, and improve the communication between the team members.</p>
+<p><strong>React</strong>, Redux, and RxJS were used on the front-end, all written in <strong>TypeScript</strong>, while <strong>Go</strong> was used to build the APIs.</p>
+<p>In order to improve the communication between the multiple front-end applications and the APIs, we also implemented a simple <strong>GraphQL</strong> abstraction server put in the middle of the APIs and the clients.
+This service was built in <strong>Rust</strong> to improve type safety and ensure it wouldn’t be a bottleneck.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Full-stack web developer - Lead - Trainer
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="http://www.soat.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Soat
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="http://www.soat.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Soat
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>, 2014-09-01 to 2018-05-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Worked as a consultant</p>
+</li>
+                    
+                    <li><p>Wrote and provided training in React and Node</p>
+</li>
+                    
+                    <li><p>Participated to the web department development with the “Experts Team”</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>Soat is a big IT consulting company.</p>
+<p>I was hired as a junior front-end developer but could become a lead full-stack developer, as well as a tech trainer at Soat.</p>
+<p>As a trainer I could write and provide 2 extensive trainings, about <strong>React</strong> and <strong>Node</strong> and provide them for different big companies.</p>
+<p>It was an amazing opportunity for me to share with more people and learn even more from different companies talking about their technical needs, and analyzing their requirements.</p>
+<p>Before leaving Soat I could also participate to the “Experts Team”.
+The target was to meet regularly and decide the technical direction Soat should take. I was in charge to handle the Web department.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Lead developer - Architect
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://group.bnpparibas/en/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        BNP
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://group.bnpparibas/en/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        BNP
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>, 2018-01-01 to 2018-05-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Built the architecture of the front-end part - <strong>TypeScript</strong>, <strong>React</strong>, Redux and RxJS</p>
+</li>
+                    
+                    <li><p>Developed new features</p>
+</li>
+                    
+                    <li><p>Worked on the CI/CD tool CircleCI</p>
+</li>
+                    
+                    <li><p>Wrote AWS templates</p>
+</li>
+                    
+                    <li><p>Communication and planning with the Product Owner and the Swiss Knife</p>
+</li>
+                    
+                    <li><p>Helped with automated tests (in Katalon)</p>
+</li>
+                    
+                    <li><p>Back-end in Java Spring Boot</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>BNP is one of the biggest bank in Europe.</p>
+<p>BNP IFS (International Financial Services) invested in 6 new projects, and I was very lucky to participate to this new challenge within one of these team as a tech lead.</p>
+<p>Our project was an e-commerce like application allowing for everyone to invest in real estate.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Senior full-stack web developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://www.societegenerale.com/en/home"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Société Générale
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://www.societegenerale.com/en/home"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Société Générale
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>, 2017-09-01 to 2018-01-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Developed new features in <strong>React</strong> (<strong>TypeScript</strong>)</p>
+</li>
+                    
+                    <li><p>Participated to back-end development in <strong>C#</strong></p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>Société Générale is one of the biggest bank in Europe.</p>
+<p>I had the opportunity to work on a pretty large application allowing for foreign currencies exchange.</p>
+<p>In a team of 10, I was in charge to develop new features in both React/TypeScript for the front-end, and C# for the back-end.</p>
+<p>The stack also included Redux and RxJS.
+CD/CI were achieved using Puppet and Deploy It.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Senior full-stack web developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="http://www.radiofrance.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Radio France
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="http://www.radiofrance.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        Radio France
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>, 2016-09-01 to 2017-09-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Led the RTE project, called Kami, a React/Draft.js based tool written in <strong>TypeScript</strong></p>
+</li>
+                    
+                    <li><p>Worked on a full-featured Node server written with Express</p>
+</li>
+                    
+                    <li><p>Introduced TypeScript to the team, used TypeScript to refactor some projects</p>
+</li>
+                    
+                    <li><p>Used SVG in PureScript and Pux to build a small graph tool</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>Radio France is the main French radio company.</p>
+<p>I worked in a team of 5, developing and maintaining multiple applications, mainly front-end related.</p>
+<p>We had to develop and maintain a dozen of projects written mainly in React/Redux.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Lead full-stack web developer - Lead font-end developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="http://www.tf1.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        TF1
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="http://www.tf1.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        TF1
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>, 2014-09-01 to 2016-09-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Led a team of 5 on a first website project in AngularJS</p>
+</li>
+                    
+                    <li><p>Built a powerful tag system to link every kind of resources used by the front-end website</p>
+</li>
+                    
+                    <li><p>Developed my first full-featured RTE using Scribe</p>
+</li>
+                    
+                    <li><p>Translated from ES5 to ES6 (ES2015) the codebase</p>
+</li>
+                    
+                    <li><p>Worked on the core API built with Hapi on <strong>Node</strong></p>
+</li>
+                    
+                    <li><p>Could write and give technical presentation to the different teams (including presentations about ES6 new features and Node)</p>
+</li>
+                    
+                    <li><p>Developed an isomorphic application using React and Redux on the front-end and Express on the back-end</p>
+</li>
+                    
+                    <li><p>Build an other RTE using React and Draft.js</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>TF1 is one of the biggest European TV channels.</p>
+<p>It was my first mission as a consultant for Soat.</p>
+<p>Within the framework of a full application refactoring, I was hired as a developer in a team of 5 on an AngularJS application for around 9 months.</p>
+<p>After that I had the opportunity to work on the “core application”, a Node API built on top of HAPI, for 3 months.</p>
+<p>The last 8 months I spent at TF1 were dedicated to deciding the stack and the architecture, and developing a new application in a team of 4.</p>
+<p>The chosen stack included <strong>React</strong> and Redux.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Front-end developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <span class="text-blue-800">Tibanne</span></span>
+                    
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Tokyo, Japan</span>, 2013-11-01 to 2014-08-15
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>HTML/CSS integration</p>
+</li>
+                    
+                    <li><p>Created new pages and dynamic forms</p>
+</li>
+                    
+                    <li><p>Developed and tested newsletter emails</p>
+</li>
+                    
+                    <li><p>JavaScript development</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>Tibanne had several activities including website and VPS hosting via the website forever.net.</p>
+<p>My mission was to build alone the front-end for this website.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Full-stack web developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <span class="text-blue-800">-</span></span>
+                    
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>, 2012-09-01 to 2013-09-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Wrote “Functional JavaScript” (https://github.com/gaku-sei/functional-javascript) a functional programming library in JavaScript for educational purposes</p>
+</li>
+                    
+                    <li><p>Mango project: an ORM for MongoDB in Clojure</p>
+</li>
+                    
+                    <li><p>Developed a GMail POP3 client in <strong>Rust</strong></p>
+</li>
+                    
+                    <li><p>Built several small applications in <strong>Node</strong></p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>I decided to take one year as an autodidact to learn new languages and to improve my knowledge in both front-end and back-end development.</p>
+<p>During this period I could deep-dive into server development using Ruby, Python, and Node.
+It was also a good opportunity for me to really understand JavaScript and how it works regardless of the framework.</p>
+<p>I could also learn new paradigms with languages such as Haskell and Scala, which greatly
+helped me, until now, to find better ways to write better applications.</p>
+</div>
+              </div>
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1 summary">
+                  <div class="font-bold">
+                    <span class="text-primary text-xl">
+                      Full-stack web developer
+                    </span>
+                    <span class="text-md">
+                      
+                      <a class="print:hidden text-blue-800 underline" href="https://www.quelleenergie.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        QuelleEnergie
+                      </a>
+                      <a class="hidden print:block text-blue-800" href="https://www.quelleenergie.fr/"
+                        rel="noopener noreferrer nofollow" target="_blank">
+                        QuelleEnergie
+                      </a>
+                      
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>, 2012-03-01 to 2012-09-01
+                  </div>
+                </div>
+                
+                <div class="pl-12 pr-4 pb-4">
+                  <ul class="list-disc">
+                    
+                    <li><p>Business needs analysis</p>
+</li>
+                    
+                    <li><p>Writing technical specifications</p>
+</li>
+                    
+                    <li><p>Server development using <strong>Ruby on Rails</strong></p>
+</li>
+                    
+                    <li><p>Front-end development with jQuery</p>
+</li>
+                    
+                    <li><p>MySQL migrations</p>
+</li>
+                    
+                    <li><p>Unit tests with RSpec</p>
+</li>
+                    
+                  </ul>
+                </div>
+                
+                <div class="whitespace-pre-line clean-paragraphs"><p>QuelleEnergie is an energy saving advice company.</p>
+<p>The website and its tools are built in Ruby on a Rails and jQuery.</p>
+</div>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <section class="pt-4 space-y-8">
+          <div class="space-y-3">
+            <div class="text-xl font-bold uppercase">Education</div>
+            <hr class="h-0.5" />
+            <div class="space-y-8">
+              
+              <div class="space-y-2">
+                <div class="flex flex-col space-y-1">
+                  <div class="font-bold text-xl">
+                    
+                    <a class="underline" href="https://www.epitech.eu/" rel="noopener noreferrer nofollow"
+                      target="_blank">University - Epitech Paris</a>
+                    
+                  </div>
+                  <div class="italic">
+                    <span class="text-primary">Paris, France</span>,
+                    2010-04-01 à 2012-04-01
+                  </div>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+        </section>
+      </section>
+      
+      <section class="pt-4 px-4 sm:px-8 pb-8 space-y-8">
+        <div class="space-y-3">
+          <div class="text-xl font-bold uppercase">Languages</div>
+          <hr class="h-0.5" />
+          <div class="pl-8 pr-4">
+            <ul class="list-disc">
+              
+              <li>French: Native</li>
+              
+              <li>English: Professional working proficiency</li>
+              
+              <li>Japanese: Elementary proficiency</li>
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      
+      <section class="pt-4 pb-8 px-4 sm:px-8 space-y-8">
+        <div class="space-y-3">
+          <div class="text-xl font-bold uppercase">Skills</div>
+          <hr class="h-0.5" />
+          
+          <section>
+            <div class="flex flex-col pl-4 space-y-1">
+              <div class="font-bold uppercase">Methodology</div>
+              <div class="flex flex-row flex-wrap gap-x-2 px-4">
+                
+                <p>Agile</p>
+<span> - </span>
+                
+                <p>Scrum</p>
+<span> - </span>
+                
+                <p>Gitflow</p>
+
+                
+              </div>
+            </div>
+          </section>
+          
+          <section>
+            <div class="flex flex-col pl-4 space-y-1">
+              <div class="font-bold uppercase">Front-End Web Development</div>
+              <div class="flex flex-row flex-wrap gap-x-2 px-4">
+                
+                <p><strong>React</strong></p>
+<span> - </span>
+                
+                <p><strong>Svelte(kit)</strong></p>
+<span> - </span>
+                
+                <p><strong>Next.js</strong> for server side rendered applications</p>
+<span> - </span>
+                
+                <p>Vue</p>
+<span> - </span>
+                
+                <p>Tailwind</p>
+<span> - </span>
+                
+                <p>Redux</p>
+<span> - </span>
+                
+                <p>Recoil/Jotai</p>
+<span> - </span>
+                
+                <p>RxJS</p>
+<span> - </span>
+                
+                <p>Webpack</p>
+<span> - </span>
+                
+                <p>Vite</p>
+<span> - </span>
+                
+                <p>AngularJS</p>
+<span> - </span>
+                
+                <p>Angular</p>
+
+                
+              </div>
+            </div>
+          </section>
+          
+          <section>
+            <div class="flex flex-col pl-4 space-y-1">
+              <div class="font-bold uppercase">Front-End Desktop Development</div>
+              <div class="flex flex-row flex-wrap gap-x-2 px-4">
+                
+                <p><strong>Egui</strong> - Eframe (Rust immediate mode graphical library)</p>
+<span> - </span>
+                
+                <p><strong>Electron</strong></p>
+<span> - </span>
+                
+                <p>Dioxus (Rust)</p>
+
+                
+              </div>
+            </div>
+          </section>
+          
+          <section>
+            <div class="flex flex-col pl-4 space-y-1">
+              <div class="font-bold uppercase">Back-End Development</div>
+              <div class="flex flex-row flex-wrap gap-x-2 px-4">
+                
+                <p><strong>Rust</strong> services and APIs (Actix, Axum, Juniper, Tokio, CLI toolings)</p>
+<span> - </span>
+                
+                <p><strong>Node</strong> (Express, Fastify, Prisma, Nestjs, Hapi, Koa)</p>
+<span> - </span>
+                
+                <p><strong>AWS</strong> (Cognito, Route 53, Ec2, s3, lambda, etc…)</p>
+<span> - </span>
+                
+                <p>Terraform</p>
+<span> - </span>
+                
+                <p>GraphQl (Nexus, TypeGraphql, Absinthe)</p>
+<span> - </span>
+                
+                <p>Rest services</p>
+<span> - </span>
+                
+                <p>MySQL</p>
+<span> - </span>
+                
+                <p>SQLite</p>
+<span> - </span>
+                
+                <p>PostgreSQL</p>
+
+                
+              </div>
+            </div>
+          </section>
+          
+          <section>
+            <div class="flex flex-col pl-4 space-y-1">
+              <div class="font-bold uppercase">Mobile Development</div>
+              <div class="flex flex-row flex-wrap gap-x-2 px-4">
+                
+                <p>React-Native</p>
+<span> - </span>
+                
+                <p>Progressive Web App</p>
+
+                
+              </div>
+            </div>
+          </section>
+          
+          <section>
+            <div class="flex flex-col pl-4 space-y-1">
+              <div class="font-bold uppercase">Languages used at work</div>
+              <div class="flex flex-row flex-wrap gap-x-2 px-4">
+                
+                <p><strong>Rust</strong></p>
+<span> - </span>
+                
+                <p><strong>TypeScript</strong></p>
+<span> - </span>
+                
+                <p><strong>Python</strong></p>
+<span> - </span>
+                
+                <p>ReScript</p>
+<span> - </span>
+                
+                <p>JavaScript</p>
+<span> - </span>
+                
+                <p>Elm</p>
+<span> - </span>
+                
+                <p>OCaml</p>
+<span> - </span>
+                
+                <p>Ruby</p>
+<span> - </span>
+                
+                <p>C#</p>
+
+                
+              </div>
+            </div>
+          </section>
+          
+          <section>
+            <div class="flex flex-col pl-4 space-y-1">
+              <div class="font-bold uppercase">Languages used at home</div>
+              <div class="flex flex-row flex-wrap gap-x-2 px-4">
+                
+                <p><strong>Go</strong></p>
+<span> - </span>
+                
+                <p>Elixir</p>
+<span> - </span>
+                
+                <p>PureScript</p>
+<span> - </span>
+                
+                <p>Haskell</p>
+<span> - </span>
+                
+                <p>Scala</p>
+
+                
+              </div>
+            </div>
+          </section>
+          
+        </div>
+      </section>
+      
+    </div>
+  </main>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+
+</html>
